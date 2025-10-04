@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index-style.css">
+</head>
+<body>
+    <header class="navbar">
+            <div class="bar">
+                <h1 class="brand">Mi Portafolio</h1>
+                <nav aria-label="principal">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/Proyectos.html">Proyectos</a></li>
+                        <li><a href="pages/Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <section class="presentacion">
+            <h2>Experiencia Profesional</h2>
+            <p>Médico cirujano (UNMSM), Ingeniero Administrativo (UIGV), Maestro en Gerencia de Servicios de Salud (UNMSM), MBA en Salud (UPC), Máster en Innovación de Negocios por la Universidad Politécnica de Valencia, cursando actualmente el Doctorado en Gerencia de Empresas de la Facultad de Ingeniería Industrial (UNMSM). Cuenta con una sólida experiencia en docencia universitaria de pre y post grado, gestión de organizaciones educativas, de servicios de salud, y Asociaciones Público Privadas (APP), habiendo trabajado en instituciones como ESSALUD, SISOL, Clínica San Juan de Dios de Lima, y Gestora Peruana de Hospitales (GEPEHO), consorcio internacional a cargo de la APP del Instituto Nacional de Salud del Niño San Borja. Además, posee certificaciones como Auditor Lider en ISO 9001, Sistemas Integrados de Gestión, Evaluador Externo del SINEACE, entre otras.
+            </p>
+            <img src="img/Foto.jpeg">
+        </section>
+        <section class="habilidades">
+            <h2>Competencias</h2>
+            <p class="descripcion">
+                Estas son algunas de las áreas en las que tengo experiencia.
+            </p>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <h3>Gestión de Organizaciones de salud</h3>
+                    <p>Planificación, administración, y supervisión de Organizaciones de Aseguramiento y Servicios de Salud públicos y privados, enfocado en gestión de calidad, evaluación de desempeño, y mejora continua en el sector salud.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Gestión Educativa</h3>
+                    <p>Docencia, gestión académica, licenciamiento y acreditación de programas académicos de pregrado y posgrado en Universidades públicas y privadas, basado en diseño curricular, evaluación de aprendizajes, y uso de tecnologías educativas.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Innovación e Inteligencia Artificial</h3>
+                    <p>Desarrollo de competencias y herramientas para los equipos de trabajo, gestión financiera, gestión de calidad y mejora continua basado en metodologías ágiles, design thinking, y uso de tecnologías emergentes.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Gestión de Calidad y Acreditación</h3>
+                    <p>Auditor Lider ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, con experiencia en certificación y recertificación de Sistemas Integrados de Gestión, y Acreditación de organizaciones educativas basados en normas nacionales (SINEACE) e internacionales (COMAEM).</p>
+                </div>
+            </div>
+        </section>
+        <section class="flip-section">
+            <h2>Certificaciones</h2>
+            <p>Títulos profesionales y de posgrado.</p>
+            <div class="flip-contenedor">
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Médico Cirujano</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/Titulo1.jpg">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Ingeniero Administrativo</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/Titulo2.jpg">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>MBA en Salud</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/MBA.jpg">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>MBI</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/MBI.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="footer-contacto">
+                <h3>Contacto</h3>
+                <p>Email: daniel.angulo@gmail.com</p>
+                <p>Telefono: +51 999287752</p>
+                <p>Ubicación: Lima, Perú</p>
+            </div>
+            <div class="footer-nav">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/danielangulopoblete/">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/danielangulopoblete/">LinkedIn</a></li>
+                    <li><a href="https://github.com/DanMacgyver">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; 2025 Daniel Angulo Poblete. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div id="imgModal" class="modal">
+        <span class="cerrar">&times;</span>
+        <img class="modal-contenedor" id="modalImg">
+    </div>
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
